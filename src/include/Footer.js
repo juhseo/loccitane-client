@@ -89,11 +89,11 @@ function Footer(){
             </div>
             <div id="ft_bottom">
                 <img src="img/small_logo.png" alt="small_logo"/>
-                <div>
+                <div id="ft_bttm_01">
                     <p>상호: 록시땅코리아 유한책임회사 | 사업자 등록 번호 211-87-74234 | 대표자 : 안드레조셉호프만 | 주소: 서울특별시 강남구 테헤란로 87길 36(삼성동) 도심공항타워 21층(06164)</p>
                     <p>| 대표전화 :(02)2054-0500 | 대표메일 : LOCCITANE@LOCCITANE.CO.KR | 결제관련문의 : 1588-4954 | 주문관련문의 : (02)2054-0500 | 통신판매번호 : 2008-서울강남-0844 |</p>
                 </div>
-                <div>
+                <div id="ft_bttm_02"> 
                     {/* <!-- 아이콘 넣기 --> */}
                     <button><i></i>좋아요</button>
                     <p>
@@ -101,7 +101,7 @@ function Footer(){
                         친구들이 무엇을 좋아하는지 알아보려면 가입하기
                     </p>
                 </div>
-                <div>
+                <div id="ft_bttm_03">
                     L'OCCITANE EN PROVENCE © COPYRIGHT 2022
                 </div>
             </div>

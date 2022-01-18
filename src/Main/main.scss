@@ -69,27 +69,72 @@ header {
     }
 padding-bottom: 30px;
 }
+
+// footer부분
 footer{
     border-top: 2px solid #333;
+    width: 75%;
+    margin: 0 auto;
     #ft_top{
-        width: 80%;
-        margin: 0 auto;
         display: flex;
+        justify-content: space-between;
+
         text-align: center;
         padding: 30px 0;
         border-bottom: 1.5px solid #ccc;
         font-weight: bold;
     }
-    #ft_top div:not(:last-child) {
-        padding-right: 50px;
+    #ft_left p:nth-child(2){
+        color: var(--footer-color);
+    }
+    #ft_left p:nth-child(3) {
+        color:var(--main-font-color);
+        font-weight: bold;
     }
     #ft_mid_01{
         display: flex;
+        justify-content: space-between;
+        padding : 30px 5%;
+        border-bottom: 1.5px solid #ccc;
+    }
+    #ft_mid_01 > div > p{
+        font-weight: bold;
+        font-size: var(--small-font-size);
+        color: var(--footer-color);
+    }
+    #ft_mid_01 > div > ul > li {
+        font-weight: bold;
+        font-size: var(--small-font-size);
+    }
+    #ft_mid_02 {
+        text-align: center;
     }
     #ft_mid_02 > ul{
         display: flex;
+        padding: 30px 0;
+        border-bottom: 1.5px solid #ccc;
+        font-size: var(--small-font-size);
+        font-weight: bold;
+        color: var(--footer-color);
     }
     #ft_mid_02 > ul > li:not(:last-child){
         padding-right: 10px;
     }
+
+    #ft_bottom{
+        text-align: center;
+    }
+    #ft_bttm_02{
+        display: flex;
+    }
+    #ft_bttm_02 > button{
+        height: 30px;
+        color: #fff;
+        border: 1px solid #4267b2;
+        background-color: #4267b2;
+    }
+    #ft_bttm_02 > p{
+        text-align: left;
+    }
+    
 }
