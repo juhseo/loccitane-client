@@ -59,11 +59,11 @@ function UploadPage(){
                   
                     </Upload>
                 </Form.Item>
-                <Form.Item name="seller" label={<div className="upload-label">판매자명</div>}
+                {/* <Form.Item name="seller" label={<div className="upload-label">판매자명</div>}
                     rules={[{ required: true, message:"판매자 이름을 입력해 주세요"}]}
                 >
                     <Input placeholder="판매자 이름을 입력해주세요" className="upload-name" />
-                </Form.Item>
+                </Form.Item> */}
                 <Divider />
                 <Form.Item name="name" label={<div className="upload-label">상품명</div>}
                     rules={[{ required: true, message:"상품 이름을 입력해 주세요"}]}
@@ -77,12 +77,12 @@ function UploadPage(){
                     <InputNumber size="large" defaultValue={0} />
                 </Form.Item>
                 <Divider />
-                <Form.Item name="description" label={<div className="upload-label">상품소개</div>}>
+                {/* <Form.Item name="description" label={<div className="upload-label">상품소개</div>}>
                     <Input.TextArea 
                         placeholder="상품소개를 적어주세요"
                         maxLength={400}
                     />
-                </Form.Item>
+                </Form.Item> */}
                 <Divider />
                 <Form.Item>
                     <Button size="large" htmlType="submit">상품등록하기</Button>

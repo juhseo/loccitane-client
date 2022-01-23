@@ -1,0 +1,160 @@
+#promoPage{
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 9.05%;
+    margin: 0 auto;
+    #hd{
+        #hd_outt{
+            background-image: url(../../public/img/sub03_promo/01.webp);
+            background-position: center center;
+            background-size: cover;
+            position: absolute;
+            top: 9.05%;
+            left: 15%;
+            width: 70%;
+            height: 280px;
+        }
+        #hd_inner{
+            width: 20%;
+            position: absolute;
+            top: 22.5%;
+            left: 40%;
+            background-color: #ffff;
+            font-size: 40px;
+            text-align: center;
+            padding: 35px 0;
+            margin: 0 auto;
+        }
+        #hd_outt_inn{
+            width: 19%;
+            height: 110px;
+            position: absolute;
+            top: 23.5%;
+            left: 40.5%;
+            border: 3px solid #ccc;
+            outline: 4px solid var(--main-color);
+        }
+    }
+    #sec01{
+        #sec01_01{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20%;
+            margin-bottom: 40px;
+            #sec01_01_left{
+                padding-top: 20px;
+                h1{
+                    padding-bottom: 10px;
+                }
+                p:nth-child(2){
+                    font-weight: 900;
+                    text-decoration: underline;
+                    margin-bottom: 0;
+                }
+                p:nth-child(4){
+                    font-size: 12px;
+                    padding: 20px 0;
+                }
+                .add{
+                    color: var(--main-font-color);
+                    font-weight: 700;
+                    background-color: var(--span-color);
+                    padding: 12px 25px;
+                    text-align: center;
+                    align-items: center;
+                    border-radius: 1px;
+                    border:2px solid var(--main-color);
+                    &:hover{
+                        border: 2px solid var(--main-color);
+                        cursor: pointer;
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+        #sec01_02{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            .promo{
+                border: 1px solid #ccc;
+                text-align: center;
+                padding-bottom: 40px;
+                h1{
+                    padding: 30px 0 50px 0;
+                    font-size: 25px;
+                }
+                .add{
+                    color: var(--main-font-color);
+                    font-weight: 700;
+                    background-color: var(--span-color);
+                    padding: 12px 25px;
+                    text-align: center;
+                    align-items: center;
+                    border-radius: 1px;
+                    border:2px solid var(--main-color);
+                    &:hover{
+                        border: 2px solid var(--main-color);
+                        cursor: pointer;
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+        #sec01_03{
+            padding: 80px 0 70px 0;
+            text-align: center;
+            img{
+                width: 95%;
+            }
+        }
+    }
+    #sec02{
+        h1{
+            text-align: center;
+        }
+        .underbar{
+            width: 50px;
+            border: 1px solid var(--main-font-color);
+            margin: 0 auto;
+        }
+        ul{
+            margin-top: 60px;
+            margin-bottom: 150px;
+            display: flex;
+            justify-content: space-between;
+            li{
+                width: 25%;
+                max-width: 80%;
+                text-align: center;
+                img{
+                    width: 90%;
+                    height: 60%;
+                }
+                p:nth-child(2){
+                    font-weight: bold;
+                    padding-top: 20px;
+                }
+                p:nth-child(3){
+                    font-weight: 900;
+                    padding-bottom: 50px;
+                }
+                .add{
+                    color: var(--main-font-color);
+                    font-weight: 700;
+                    background-color: var(--span-color);
+                    padding: 10px 20px;
+                    text-align: center;
+                    align-items: center;
+                    border-radius: 1px;
+                    border:2px solid var(--main-color);
+                    &:hover{
+                        border: 2px solid var(--main-color);
+                        cursor: pointer;
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

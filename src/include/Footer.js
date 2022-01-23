@@ -88,17 +88,21 @@ function Footer(){
                 </ul>
             </div>
             <div id="ft_bottom">
-                <img src="img/small_logo.png" alt="small_logo"/>
+                <img src="img/main/small_logo.png" alt="small_logo"/>
                 <div id="ft_bttm_01">
                     <p>상호: 록시땅코리아 유한책임회사 | 사업자 등록 번호 211-87-74234 | 대표자 : 안드레조셉호프만 | 주소: 서울특별시 강남구 테헤란로 87길 36(삼성동) 도심공항타워 21층(06164)</p>
                     <p>| 대표전화 :(02)2054-0500 | 대표메일 : LOCCITANE@LOCCITANE.CO.KR | 결제관련문의 : 1588-4954 | 주문관련문의 : (02)2054-0500 | 통신판매번호 : 2008-서울강남-0844 |</p>
                 </div>
                 <div id="ft_bttm_02"> 
                     {/* <!-- 아이콘 넣기 --> */}
-                    <button><i></i>좋아요</button>
+                    <button>
+                        <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Ferror%2Fconfirm%2Flike%3Fiframe_referer%3Dhttps%253A%252F%252Fkr.loccitane.com%252F%26kid_directed_site%3Dfalse%26secure%3Dtrue%26plugin%3Dlike%26return_params%3D%257B%2522href%2522%253A%2522https%253A%252F%252Fwww.facebook.com%252Floccitane.korea%2522%252C%2522layout%2522%253A%2522standard%2522%252C%2522show_faces%2522%253A%2522true%2522%252C%2522width%2522%253A%2522300%2522%252C%2522action%2522%253A%2522like%2522%252C%2522font%2522%253A%2522arial%2522%252C%2522colorscheme%2522%253A%2522light%2522%252C%2522height%2522%253A%252280%2522%252C%2522ret%2522%253A%2522sentry%2522%252C%2522act%2522%253A%2522like%2522%257D">
+                            <i></i>좋아요
+                        </a>
+                    </button>
                     <p>
                         632만명이 좋아합니다.<br/>
-                        친구들이 무엇을 좋아하는지 알아보려면 가입하기
+                        친구들이 무엇을 좋아하는지 알아보려면 <a>가입하기</a>
                     </p>
                 </div>
                 <div id="ft_bttm_03">

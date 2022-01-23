@@ -40,7 +40,7 @@ function MainPage(){
                 
                 </Carousel> */}
                 <div id="sec01">
-                    <img src="img/sec01_01.webp" />
+                    <img src="img/main/sec01_01.webp" />
                     <div id="sec01_mini_bann">
                         <p>
                             2022 
@@ -57,17 +57,17 @@ function MainPage(){
                 
                 <div id="sec02">
                     <div id="sec02_left">
-                        <img src="img/sec01_icon01.png"/>
+                        <img src="img/main/sec01_icon01.png"/>
                         <div className="sec02_mini_text">
                             <p>전구매 무료배송 & 설 연휴 공지</p>
                             <p>
                                 록시땅 공식몰 무료배송 서비스.<br/>
-                                설 연휴 공식몰 배송과 매장 휴점 안내는 해당 배너를 클릭후<br/>확인 부탁드립니다.
+                                설 연휴 공식몰 배송과 매장 휴점 안내는 <br/>해당 배너를 클릭 후 확인 부탁드립니다.
                             </p>
                         </div>
                     </div>
                     <div id="sec02_right">
-                        <img src="img/sec01_icon02.png"/>
+                        <img src="img/main/sec01_icon02.png"/>
                         <div className="sec02_mini_text">
                             <p>록시땅 공식몰 단독 혜택</p>
                             <p>
@@ -78,7 +78,7 @@ function MainPage(){
                     </div>
                 </div>
 
-                <div id="sec03" className="innerCon">
+                <div id="sec03">
                     <div id="sec03_01"className="sec03_submenu">
                         <ul>
                             <li>SHEA FOR GOOD GIFT</li>
@@ -102,7 +102,7 @@ function MainPage(){
                             <span className="add">자세히 보기</span>
                         </div>
                         <div id="sec03_right_img">
-                            <img src="img/sec02_banner.webp" alt="sec03_right_banner"/>
+                            <img src="img/main/sec02_banner.webp" alt="sec03_right_banner"/>
                         </div>
                     </div>
                     <div id="sec03_border_box"></div>
@@ -140,7 +140,7 @@ function MainPage(){
                     <div id="sec05_02">
                         <div id="sec05_02_flexbox">
                             <div id="sec05_left" className="sec05_content">
-                                <img src="img/sec04_ban01.webp" alt="sec05_left_img"/>
+                                <img src="img/main/sec04_ban01.webp" alt="sec05_left_img"/>
                                 <p className="sec05_con_title">록시땅 시어 버터, 28년만에 새로워지다</p>
                                 <p className="sec05_con_text">
                                     더 좋은 원료, 효능, 의미로 28년만에 새로워진 록시땅의 대표 원료<br/>
@@ -150,7 +150,7 @@ function MainPage(){
                             </div>
                             <span id="sec05_mid"></span>
                             <div id="sec05_right" className="sec05_content">
-                                <img src="img/sec04_ban02.webp" alt="sec05_right_img"/>
+                                <img src="img/main/sec04_ban02.webp" alt="sec05_right_img"/>
                                 <p className="sec05_con_title">록시땅 시어 버터, 부르키나파소 여성</p>
                                 <p className="sec05_con_text">
                                     록시땅 시어 버터는 부르키나파소 공화국 여성들의<br/>
@@ -161,7 +161,7 @@ function MainPage(){
                         </div>
                         <div id="sec05_03">
                             <div id="sec05_pro_01" className="sec05_products">
-                                <img src="img/sec04_product01.webp"/>
+                                <img src="img/main/sec04_product01.webp"/>
                                 <p className="sec05_pro_text">
                                     2022 시어 버터 드라이 스킨 핸드 크림<br/>
                                     150ml
@@ -170,7 +170,7 @@ function MainPage(){
                                 <span className="add">구매하기</span>
                             </div>
                             <div id="sec05_pro_02" className="sec05_products">
-                                <img src="img/sec04_product02.webp"/>
+                                <img src="img/main/sec04_product02.webp"/>
                                 <p className="sec05_pro_text">
                                     2022 시어 버터 울트라 리치 바디 크림<br/>
                                     200ml
@@ -179,7 +179,7 @@ function MainPage(){
                                 <span className="add">구매하기</span>
                             </div>
                             <div id="sec05_pro_03" className="sec05_products">
-                                <img src="img/sec04_product03.webp"/>
+                                <img src="img/main/sec04_product03.webp"/>
                                 <p className="sec05_pro_text">
                                     2022 시어 버터 울트라 리치 페이스크림<br/>
                                     50ml
@@ -188,7 +188,7 @@ function MainPage(){
                                 <span className="add">구매하기</span>
                             </div>
                             <div id="sec05_pro_04" className="sec05_products">
-                                <img src="img/sec04_product04.webp"/>
+                                <img src="img/main/sec04_product04.webp"/>
                                 <p className="sec05_pro_text">
                                     2022 시어 버터 울트라 리치 바디 스크럽<br/>
                                     200ml
@@ -204,7 +204,7 @@ function MainPage(){
                     <h1>NEW 릴랙싱 롤온</h1>
                     <div id="sec06_01" className="underbar"></div>
                     <div id="sec06_02">
-                        <img src="img/sec05_ban01.webp" />
+                        <img src="img/main/sec05_ban01.webp" />
                         <div id="sec06_mini_bann">
                             <div id="sec06_mini_top">
                                 <p>
@@ -221,7 +221,7 @@ function MainPage(){
                                     <p>30,000원</p>
                                     <span className="add">구매하기</span>
                                 </div>
-                                <img src="img/sec05_product1.webp" id="sec06_mini_bottom02" alt ="mini_rollon" />
+                                <img src="img/main/sec05_product1.webp" id="sec06_mini_bottom02" alt ="mini_rollon" />
                             </div>
                         </div>
                     </div>
@@ -232,7 +232,7 @@ function MainPage(){
                     <h1>공식몰 프로모션</h1>
                     <div id="sec07_01" className="underbar"></div>
                     <div id="sec07_02">
-                        <img src="img/sec05_smallban.webp" alt=""/>
+                        <img src="img/main/sec05_smallban.webp" alt=""/>
                         <span className="add">구매하기</span>
                     </div>
                 </div>
@@ -241,8 +241,8 @@ function MainPage(){
                     <h1>친환경포장서비스</h1>
                     <div id="sec08_01" className="underbar"></div>
                     <div id="sec08_02">
-                        <img src="img/vid_thumbnail.webp"/>
-                        <span id="sec07_02_title">
+                        <img src="img/main/vid_thumbnail.webp"/>
+                        <span id="sec08_02_title">
                             록시땅의 친환경 ECO MERCI 박스
                         </span>
                         <p>
@@ -268,18 +268,18 @@ function MainPage(){
                     <div id="sec10_01" className="underbar"></div>
                     <div id="sec10_02">
                         <div id="sec10_02_left">
-                            <img src="img/sec06_mall.jpg" alt="mall_img"/>
+                            <img src="img/main/sec06_mall.jpg" alt="mall_img"/>
                         </div>
                         <div id="sec10_02_right">
                             <div id="sec10_02_top">
                                 <p>가장 가까운 록시땅 매장을 찾아보세요.</p>
-                                <p>가가운 록시땅 매장에서 프로방스의 아름다움을 경험해 보세요!</p>
+                                <p>가까운 록시땅 매장에서 프로방스의 아름다움을 경험해 보세요!</p>
                                 <p>매장명을 입력하세요.</p>
                             </div>
                             <span>ex.압구정</span>
                             <div id="sec10_02_bottom">
                                 <input type="text" placeholder="ex.압구정"/>
-                                <span className="add">가까운매장찾기</span>
+                                <button className="add">가까운 매장 찾기</button>
                             </div>
                         </div>
                     </div>
