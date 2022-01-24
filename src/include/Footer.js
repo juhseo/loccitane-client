@@ -1,3 +1,12 @@
+import { AiOutlineRight } from "react-icons/ai";
+import { FaFacebookF } from "react-icons/fa";
+import { SiKakaotalk } from "react-icons/si";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FiThumbsUp } from "react-icons/fi";
+
+
 function Footer(){
     return(
         <footer>
@@ -39,42 +48,41 @@ function Footer(){
                 <div>
                     <p>록시땅 소개</p>
                     <ul>
-                        <li>록시땅 소개</li>
-                        <li>록시땅 팩토리 투어</li>
-                        <li>록시땅 멤버쉽 프로그램</li>
-                        <li>록시땅 리사이클 캠페인</li>
-                        <li>스파 록시땅</li>
-                        <li>록시땅 그룹</li>
-                        <li>투자자</li>
+                        <li><AiOutlineRight /> 록시땅 소개</li>
+                        <li><AiOutlineRight /> 록시땅 팩토리 투어</li>
+                        <li><AiOutlineRight /> 록시땅 멤버쉽 프로그램</li>
+                        <li><AiOutlineRight /> 록시땅 리사이클 캠페인</li>
+                        <li><AiOutlineRight /> 스파 록시땅</li>
+                        <li><AiOutlineRight /> 록시땅 그룹</li>
+                        <li><AiOutlineRight /> 투자자</li>
                     </ul>
                 </div>
                 <div>
                     <p>고객 지원</p>
                     <ul>
-                        <li>이용약관</li>
-                        <li>개인정보처리방침</li>
-                        <li>온라인 문의</li>
-                        <li>자주하는 질문</li>
-                        <li>배송조회</li>
+                        <li><AiOutlineRight /> 이용약관</li>
+                        <li><AiOutlineRight /> 개인정보처리방침</li>
+                        <li><AiOutlineRight /> 온라인 문의</li>
+                        <li><AiOutlineRight /> 자주하는 질문</li>
+                        <li><AiOutlineRight /> 배송조회</li>
                     </ul>
                 </div>
                 <div>
                     <p>기업 구매 문의</p>
                     <ul>
-                        <li>기업 선물 문의</li>
-                        <li>호텔 어메니티</li>
-                        <li>기업 선물 추천</li>
-                    </ul>
+                        <li><AiOutlineRight /> 기업 선물 문의</li>
+                        <li><AiOutlineRight /> 호텔 어메니티</li>
+                        <li><AiOutlineRight /> 기업 선물 추천</li>
+                    </ul> 
                 </div>
-                <div>
-                    {/* <!-- 이모티콘 넣기 --> */}
+                <div id="sns">
                     <p>SNS</p>
                     <ul>
-                        <li>facebook</li>
-                        <li>YouTube</li>
-                        <li>Instagram</li>
-                        <li>Kakaotalk</li>
-                        <li>Twitter</li>
+                        <li><FaFacebookF className="sns"/>Facebook</li>
+                        <li><FaYoutube className="sns"/>YouTube</li>
+                        <li><FaInstagram className="sns"/>Instagram</li>
+                        <li><SiKakaotalk className="sns"/>Kakaotalk</li>
+                        <li><FaTwitter className="sns"/>Twitter</li>
                     </ul>
                 </div>
             </div>
@@ -94,12 +102,11 @@ function Footer(){
                     <p>| 대표전화 :(02)2054-0500 | 대표메일 : LOCCITANE@LOCCITANE.CO.KR | 결제관련문의 : 1588-4954 | 주문관련문의 : (02)2054-0500 | 통신판매번호 : 2008-서울강남-0844 |</p>
                 </div>
                 <div id="ft_bttm_02"> 
-                    {/* <!-- 아이콘 넣기 --> */}
-                    <button>
+                    <span>
                         <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Ferror%2Fconfirm%2Flike%3Fiframe_referer%3Dhttps%253A%252F%252Fkr.loccitane.com%252F%26kid_directed_site%3Dfalse%26secure%3Dtrue%26plugin%3Dlike%26return_params%3D%257B%2522href%2522%253A%2522https%253A%252F%252Fwww.facebook.com%252Floccitane.korea%2522%252C%2522layout%2522%253A%2522standard%2522%252C%2522show_faces%2522%253A%2522true%2522%252C%2522width%2522%253A%2522300%2522%252C%2522action%2522%253A%2522like%2522%252C%2522font%2522%253A%2522arial%2522%252C%2522colorscheme%2522%253A%2522light%2522%252C%2522height%2522%253A%252280%2522%252C%2522ret%2522%253A%2522sentry%2522%252C%2522act%2522%253A%2522like%2522%257D">
-                            <i></i>좋아요
+                            <FiThumbsUp/> 좋아요
                         </a>
-                    </button>
+                    </span>
                     <p>
                         632만명이 좋아합니다.<br/>
                         친구들이 무엇을 좋아하는지 알아보려면 <a>가입하기</a>

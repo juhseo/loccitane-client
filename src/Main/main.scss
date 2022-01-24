@@ -34,6 +34,9 @@ header {
     height: 9.05%;
     background-color: #ffff;
     z-index:5;
+    .icons{
+        font-size: 18px;
+    }
     #header_top {
         background-color: var(--top-banner-color);
         font-size: var(--mini-font-size);
@@ -61,22 +64,31 @@ header {
                 width: 250px;
                 text-align: left;
             }
+            button{
+                border: none;
+                background-color: transparent;
+            }
+            button:hover{
+                cursor: pointer;
+            }
             #right_border{
                 border-right:1px solid var(--main-font-color);
                 height: 10px;
-                margin: 0 30px;
+                margin: 0 10px;
             }
             p {
                 font-size: var(--mini-font-size);
                 font-weight: bold;
                 align-items: center;
+                padding-top: 10px;
             }
         }
         ul {
             display: flex;
             margin-bottom: 0;
+            align-items: center;
             li {
-                padding: 0 20px;
+                padding: 0 15px;
                 font-size: var(--small-font-size);
                 font-weight: bold;
             }
@@ -242,15 +254,14 @@ header {
         }
         #sec03_03{
             display: flex;
+            justify-content: center;
             margin: 40px 0 80px 0;
             align-items: center;
             position: relative;
-            background-color: orange;
             text-align: center;
             #sec03_mini_bann{
                 text-align: center;
                 padding: 0 20px;
-                background-color: cyan;
                 p:nth-child(1){
                     color: var(--main-font-color);
                     font-size: 35px;
@@ -278,13 +289,13 @@ header {
         }
         #sec03_border_box{
             width: 100%;
-            max-width: 1200px;
-            height: 480px;
+            max-width: 1180px;
+            height: 475px;
             position: absolute;
             border: 3px solid #ccc;
             outline: 4px solid var(--main-color);
-            top: 125%;
-            left: 18%;
+            top: 125.5%;
+            left: 18.5%;
             padding: 0;
         }
     }
@@ -684,7 +695,6 @@ header {
 // footer부분
 footer{
     border-top: 2px solid #333;
-    // width: 75%;
     margin: 0 auto;
     #ft_top{
         width: 75%;
@@ -719,11 +729,24 @@ footer{
                 font-weight: 700;
                 font-size: var(--small-font-size);
                 color: var(--footer-color);
+                padding-bottom: 20px;
             }
             > ul {
                 > li {
                     font-weight: 700;
                     font-size: var(--small-font-size);
+                }
+            }
+        }
+        #sns{
+            ul{
+                li:not(:last-child){
+                    padding-bottom: 20px;
+                }
+                li{
+                    .sns{
+                        margin-right: 15px;
+                    }
                 }
             }
         }
@@ -745,6 +768,7 @@ footer{
     }
     #ft_bottom{
         text-align: center;
+        margin: 0 auto;
         img{
             width: 10%;
             height: 10%;
@@ -756,7 +780,8 @@ footer{
         }
         #ft_bttm_02{
             display: flex;
-            > button{
+            justify-content: center;
+            > span{
                 height: 30px;
                 color: #fff;
                 background: #1877f2;
@@ -764,9 +789,9 @@ footer{
                 border-radius: 5px;
                 font-size: 12px;
                 font-weight: bold;
-                padding: 0 8px;
+                padding: 4px 8px;
             }
-            button:hover{
+            span:hover{
                 border: 1px solid #606e8a;
                 background-color: #4267b2;
                 cursor: pointer;

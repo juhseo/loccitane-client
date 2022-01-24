@@ -8,6 +8,8 @@ import './App.css';
 import { Route, Routes } from "react-router-dom";
 import IntroCompany from './sub06_intro';
 import BestSeller from './sub02_best';
+import Recommend from './sub04_recomm';
+import Managermode from './manager';
 
 function App() {
   return (
@@ -16,9 +18,11 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />}/>
         <Route path="/products/:id" element={<ProductView />}/>
+        <Route path="/manager" element={<Managermode/>}/>
         <Route path="/upload" element={<UploadPage />}/>
         <Route path="/bestseller" element={<BestSeller />}/>
         <Route path="/promotion" element={<Promotion/>}/>
+        <Route path="/recommend" element={<Recommend/>}/>
         <Route path="/introduce" element={<IntroCompany/>}/>
       </Routes>
       <Footer />
