@@ -1,44 +1,114 @@
-#detail {
-    h1 {
-        padding: 20px;
-        text-align: center;
-    }
-    #profile-box {
-        padding-top: 80px;
+#detail{
+    width: 100%;
+    padding-top: 10%;
+    justify-content: space-between;
+    // background-color: aquamarine;
+    #top{
         display: flex;
-        align-items: center;
-        border-bottom: 1px solid #ccc;
-        img {
-            width: 60px;
+        justify-content: space-between;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 50px;
+        #left{
+            width: 35%;
+            p:nth-child(2){
+                padding-top: 40px;
+                border-top: 1px solid #ccc;
+            }
+        }
+        #mid{
+            width: 40%;
+            text-align: center;
+            img{
+                width: 95%;
+                height: 100%;
+            }
+        }
+        #rig{
+            width: 25%;
+            border: 3px solid #ccc;
+            outline: 4px solid var(--main-color);
+            padding: 30px 50px ;
+            margin: 20px;
+            #rig_top{
+                table{
+                    .tab_price{
+                        td{
+                            width: 100%;
+                            text-align: right;
+                            font-weight: 800;
+                            border-bottom: 1px solid #ccc;
+                            padding-bottom: 5px;
+                        }
+                    }
+                    .tab_num{
+                        td{
+                            width: 100%;
+                            padding-bottom: 5px;
+                            margin-top: 20px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .pro_price{
+                    font-size: 20px;
+                    font-weight: 900;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+                .add{
+                    color: var(--main-font-color);
+                    font-size: 14px;
+                    font-weight: 700;
+                    background-color: var(--span-color);
+                    padding: 10px 10px;
+                    text-align: center;
+                    align-items: center;
+                    border-radius: 1px;
+                    border:2px solid var(--main-color);
+                    &:hover{
+                        border: 2px solid var(--main-color);
+                        cursor: pointer;
+                        background-color: #fff;
+                    }
+                }
+            }
+            #rig_btm{
+                padding-top: 30px;
+                p{
+                    text-decoration: underline;
+                    font-weight: 800;
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                    &:hover{
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                }
+            }
         }
     }
-    #contents-box {
-        div {
-            line-height: 60px;
-            border-bottom: 1px solid #ccc;
-            padding-left: 30px;
+    #bottom{
+        padding: 10px 0;
+        font-weight: 700;
+    }
+    .btn {
+        padding-top: 50px;
+        margin-bottom: 50px;
+        span {
+            margin: 20px 6px;
+            padding: 10px 20px;
+            background-color: var(--span-color);
+            color: var(--main-font-color);
+            font-size: 14px;
+            font-weight: 700;
+            border-radius: 1px;
+            border:2px solid var(--main-color);
+            cursor: pointer;
+            &:hover{
+                border: 2px solid var(--main-color);
+                cursor: pointer;
+                background-color: #fff;
+            }
         }
-    }
-}
-#image-box {
-    padding-top: 40px;
-    text-align: center;
-    img {
-        width:560px;
-        height: 560px;
-        border-radius: 50%;
-    }
-}
-.btn {
-    padding-top: 50px;
-    span {
-        margin: 20px 6px;
-        padding: 10px 20px;
-        background-color: tomato;
-        color: #fff;
-        border:0;
-        outline: 0;
-        border-radius: 6px;
-        cursor: pointer;
     }
 }

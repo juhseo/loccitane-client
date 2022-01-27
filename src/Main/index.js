@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function MainPage(){
     const [ products, setProducts ] = useState([]);
     //비주얼 이미지 state로 관리
-    const [ banners, setBanners ] = useState([]);
+    // const [ banners, setBanners ] = useState([]);
     useEffect(()=>{
         axios.get(`${API_URL}/products`)
         .then(function(result){
@@ -16,12 +16,12 @@ function MainPage(){
         }).catch(function(error){
             console.log(error);
         })
-        axios.get(`${API_URL}/banners/`)
-        .then((result)=>{
-            const banner = result.data.banners;
-            console.log(banner);
-            setBanners(banner);
-        })
+        // axios.get(`${API_URL}/banners/`)
+        // .then((result)=>{
+        //     const banner = result.data.banners;
+        //     console.log(banner);
+        //     setBanners(banner);
+        // })
         .catch((error)=>{
             console.error(error);
         })

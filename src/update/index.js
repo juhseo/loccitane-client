@@ -59,11 +59,11 @@ function UploadPage(){
                   
                     </Upload>
                 </Form.Item>
-                {/* <Form.Item name="seller" label={<div className="upload-label">판매자명</div>}
+                <Form.Item name="seller" label={<div className="upload-label">판매자명</div>}
                     rules={[{ required: true, message:"판매자 이름을 입력해 주세요"}]}
                 >
                     <Input placeholder="판매자 이름을 입력해주세요" className="upload-name" />
-                </Form.Item> */}
+                </Form.Item>
                 <Divider />
                 <Form.Item name="name" label={<div className="upload-label">상품명</div>}
                     rules={[{ required: true, message:"상품 이름을 입력해 주세요"}]}

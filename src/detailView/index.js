@@ -34,25 +34,56 @@ function ProductView(){
         }
         return (
             <div className="innerCon" id="detail">
-                <h1>{product.name}</h1>
-                <div id="image-box">
-                    <img src={product.imageUrl} alt="제품" />
+                <div id="top">
+                    <div id="left">
+                        <h1>{product.name}</h1>
+                        <p>세트 구성</p>
+                        <p>어쩌구저쩌구</p>
+                    </div>
+                    <div id="mid">
+                        <img src={product.imageUrl} alt="제품" />
+                    </div>
+                    <div id="rig">
+                        <div id="rig_top">
+                            <table>
+                                <tr className="tab_price">
+                                    <td>{product.price}</td>
+                                </tr>
+                                <tr className="tab_num">
+                                    <td>수량</td>
+                                    <td>
+                                        <select name="수량">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                            <p className="pro_price">₩{product.price}</p>
+                            <div className="add">장바구니 담기</div>
+                        </div>
+                        <div id="rig_btm">
+                            <p>무료 배송</p>
+                            <p>위시리스트에 추가하기</p>
+                            <p>제품 SNS에 공유하기</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="profile-box">
-                    <img src="/images/icons/avatar.png" alt="아이콘" />
-                    <span>{product.seller}</span>
-                </div>
-                <div id="contents-box">
-                    <div>{product.name}</div>
-                    <div>{product.price}</div>
+                <div id="bottom">
                     <div>{product.createdAt}</div>
                     <div>{product.description}</div>
                 </div>
                 <div className="btn">
-                <button onClick={productDel}>삭제하기</button>
-                <button>수정하기</button>
-                <span onClick={productDel}>삭제하기</span>
-            </div>
+                    <span>수정하기</span>
+                    <span onClick={productDel}>삭제하기</span>
+                </div>
         </div>
     );
 }
