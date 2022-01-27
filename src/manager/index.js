@@ -6,10 +6,9 @@ function Managermode(){
     return(
         <div id="manager">
             <div>
-                <img src="img/managermode/02.webp" id="point02" alt="point02" />
-                <img src="img/managermode/bann02.webp" id="point04" alt="point04"/>
+                {/* <img src="img/managermode/02.webp" id="point02" alt="point02" /> */}
+                {/* <img src="img/managermode/bann02.webp" id="point04" alt="point04"/> */}
                 <img src="img/managermode/bgimg.jpg" id="bgimg" alt="bg" />
-
             </div>
             <div id="border-box"></div>
             <div id="text-box">
