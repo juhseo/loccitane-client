@@ -2,6 +2,7 @@ import { API_URL } from "../config/constants";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./detail.scss";
 function ProductView(){
     const [ product, setProduct ] = useState(null);
@@ -77,11 +78,11 @@ function ProductView(){
                     </div>
                 </div>
                 <div id="bottom">
-                    <div>{product.createdAt}</div>
+                    {/* <div>{product.createdAt}</div> */}
                     <div>{product.description}</div>
                 </div>
                 <div className="btn">
-                    <span>수정하기</span>
+                    <span><Link to ="/update">수정하기</Link></span>
                     <span onClick={productDel}>삭제하기</span>
                 </div>
         </div>

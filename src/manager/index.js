@@ -20,7 +20,7 @@ function Managermode(){
                         <li>
                             <img src="img/managermode/adm_img03.webp" alt="noticeimg"/>
                             <p>공지사항</p>
-                            <span className="add">바로가기</span>
+                            <span className="add"><Link to="/notice">바로가기</Link></span>
                         </li>
                         <li>
                             <img src="img/managermode/adm_img01.webp" alt ="uploadimg"/>

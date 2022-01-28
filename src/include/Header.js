@@ -17,9 +17,8 @@ function Header(){
                 <h1><Link to="/"><img src="img/main/logo.png"/></Link></h1>
                 <ul>
                     <li>로그인/회원가입 <AiOutlineLogin className="icons"/></li>
-                    <li>공지사항 <GrDocumentText/></li>
+                    <li><Link to="/notice">공지사항 <GrDocumentText/></Link></li>
                     <li><Link to="/manager">관리자모드 <GrUserSettings className="icons"/></Link></li>
-                    {/* <li><Link to="/upload">상품등록하기</Link></li> */}
                 </ul>
             </div>
             <div id="sub_menu">

@@ -1,11 +1,11 @@
 import 'antd/dist/antd.min.css';
-import "./upload.scss";
+import "./update.scss";
 import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import { Form, Divider, Input, InputNumber, Button, Upload } from "antd";
 import axios from "axios";
 import { API_URL } from "../config/constants";
-function UploadPage(){
+function UpdatePage(){
     //이미지 경로 상태관리 추가하기
     const [imageUrl, setImageUrl] = useState(null);
     const navigate = useNavigate();
@@ -38,10 +38,10 @@ function UploadPage(){
         }
     }
     return(
-        <div id="upload" className="innerCon">
-            <h2>상품등록하기</h2>
-            <Form name="상품업로드" onFinish={onSubmit}>
-                <Form.Item name="upload" label={<div className="upload-label">상품 사진</div>}>
+        <div id="update" className="innerCon">
+            <h2>상품수정하기</h2>
+            <Form name="상품업데이트" onFinish={onSubmit}>
+                <Form.Item name="update" label={<div className="update-label">상품 사진</div>}>
                     <Upload name="image" 
                     action={`${API_URL}/image`}
                     listType="picture"
@@ -56,33 +56,32 @@ function UploadPage(){
                         <span>이미지를 업로드 해주세요</span>
                     </div>)
                     }
-                  
                     </Upload>
                 </Form.Item>
-                <Form.Item name="seller" label={<div className="upload-label">판매자명</div>}
+                <Form.Item name="seller" label={<div className="update-label">관리자명</div>}
                     rules={[{ required: true, message:"판매자 이름을 입력해 주세요"}]}
                 >
                     <Input placeholder="판매자 이름을 입력해주세요" className="upload-name" />
                 </Form.Item>
                 <Divider />
-                <Form.Item name="name" label={<div className="upload-label">상품명</div>}
+                <Form.Item name="name" label={<div className="update-label">상품명</div>}
                     rules={[{ required: true, message:"상품 이름을 입력해 주세요"}]}
                 >
-                    <Input placeholder="상품 이름을 입력해주세요" className="upload-name" />
+                    <Input placeholder="상품 이름을 입력해주세요" className="update-name" />
                 </Form.Item>
                 <Divider />
-                <Form.Item name="price" label={<div className="upload-label">상품가격</div>}
+                <Form.Item name="price" label={<div className="update-label">상품가격</div>}
                     rules={[{ required: true, message:"가격을 입력해 주세요"}]}
                 >
                     <InputNumber size="large" defaultValue={0} />
                 </Form.Item>
                 <Divider />
-                {/* <Form.Item name="description" label={<div className="upload-label">상품소개</div>}>
+                <Form.Item name="description" label={<div className="update-label">상품소개</div>}>
                     <Input.TextArea 
                         placeholder="상품소개를 적어주세요"
                         maxLength={400}
                     />
-                </Form.Item> */}
+                </Form.Item>
                 <Divider />
                 <Form.Item>
                     <Button size="large" htmlType="submit">상품등록하기</Button>
@@ -92,4 +91,4 @@ function UploadPage(){
         </div>
     );
 }
-export default UploadPage;
+export default UpdatePage;

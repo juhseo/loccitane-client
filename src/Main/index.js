@@ -123,7 +123,7 @@ function MainPage(){
                                             <span>{product.name}</span>
                                             <span>{product.price}원</span>
                                             <div>
-                                                <span className="add">자세히 보기</span>
+                                                <span className="add">구매하기</span>
                                             </div>
                                         </div>
                                         </Link>

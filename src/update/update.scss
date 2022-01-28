@@ -1,7 +1,7 @@
-#upload, #update {
+#update {
     padding-top: 9.05%;
     
-    #upload-img,#update-img {
+    #update-img {
         width: 200px;
         height: 200px;
         display: flex;
@@ -16,7 +16,7 @@
             height: 50px;
         }
     }
-    .upload-label,.update-label {
+    .update-label {
         display: inline-block;
         width: 200px;
         text-align: left;

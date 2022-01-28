@@ -1,0 +1,29 @@
+#wirte{
+    width: 100%;
+    padding-top: 9.05%;
+    margin: 60px 0 100px 0;
+    h1{text-align: center;}
+    Table{
+        width: 80%;
+        margin: 0 auto;
+        input{
+            border:1px solid #ccc;
+        }   
+    }
+    button{
+        margin-right: 10px;
+        margin-top: 30px;
+        color: var(--main-font-color);
+        font-weight: 700;
+        background-color: var(--span-color);
+        padding: 10px 20px;
+        border-radius: 1px;
+        border:2px solid var(--main-color);
+        &:hover{
+            border: 2px solid var(--main-color);
+            cursor: pointer;
+            background-color: #fff;
+        }
+    }
+
+}

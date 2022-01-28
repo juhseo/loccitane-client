@@ -52,17 +52,17 @@ function UploadPage(){
                     {
                     imageUrl ? (<img src={`${API_URL}/${imageUrl}`} alt="이미지" width="200" />) : (
                         <div id="upload-img">
-                        <img src="/images/icons/camera.png" alt="카메라" />
+                        <img src="/img/main/camera.png" alt="카메라" />
                         <span>이미지를 업로드 해주세요</span>
                     </div>)
                     }
                   
                     </Upload>
                 </Form.Item>
-                <Form.Item name="seller" label={<div className="upload-label">판매자명</div>}
-                    rules={[{ required: true, message:"판매자 이름을 입력해 주세요"}]}
+                <Form.Item name="seller" label={<div className="upload-label">관리자명</div>}
+                    rules={[{ required: true, message:"관리자 이름을 입력해 주세요"}]}
                 >
-                    <Input placeholder="판매자 이름을 입력해주세요" className="upload-name" />
+                    <Input placeholder="관리자 이름을 입력해주세요" className="upload-name" />
                 </Form.Item>
                 <Divider />
                 <Form.Item name="name" label={<div className="upload-label">상품명</div>}
